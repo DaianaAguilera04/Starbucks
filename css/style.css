@@ -70,3 +70,60 @@
     width: 85%;
     margin-top: 15px;
 }
+
+.contacto{
+    background: #0e0e0e; 
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto__titulo{
+    color: #006241;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.contacto__form{
+    background: #006241;
+    color: #fff;
+    padding: 15px;
+    width: 280px;
+    
+}
+.contacto__input label{
+    font-size: 14px;
+}
+.contacto__input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.contacto__input input::placeholder, .contacto__input textarea::placeholder{
+    font-size: 14px;
+    color: #006241;
+    font-weight: bolder;
+}
+.contacto__input input, .contacto__input textarea{
+    padding: 5px ;
+    border-radius: 7.5px;
+    border: 0;
+}
+.contacto__input input:focus, .contacto__input textarea:focus{
+    background: #000;
+}
+.contacto__boton{
+    background: inherit;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 45%;
+    margin-top: 20px;
+    border-radius: 7.5px;
+    padding: 4px 0;
+    transition: all 0.5s;
+}
+.contacto__boton:hover{
+    background: yellow;
+    border: 1px solid #fff;
+   
+}
