@@ -203,3 +203,33 @@
     top:-25px;
     right: -25px;
 }
+.footer{
+    background:#000;
+    padding: 25px 15px;
+}
+.footer__contiene-usuario{
+    display: flex;
+    flex-direction: column;
+}
+.footer__link-usuario{
+    color:#006241;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.footer__contiene-redes i{
+    color:#006241;
+    font-size: 22px;
+}
+.footer__contiene-redes{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__link-contacto{
+    text-decoration: none;
+    color: #29bb0c;
+}
